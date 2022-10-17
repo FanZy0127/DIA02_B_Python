@@ -125,7 +125,7 @@ True
 False
 ```
 
-- La structure d'une boulce en Python
+- La structure d'une boucle en Python
 
 ```python
  # Boucle de 1 à 9
