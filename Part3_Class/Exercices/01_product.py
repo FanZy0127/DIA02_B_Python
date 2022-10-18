@@ -16,7 +16,7 @@ class Product:
         return (self.tva + 1) * self._price
 
     @price.setter
-    def set_price(self, price: float | int):
+    def price(self, price: float | int):
         self._price = price
 
     @property
@@ -24,7 +24,7 @@ class Product:
         return self._tva
 
     @tva.setter
-    def set_tva(self, tva: float | int):
+    def tva(self, tva: float | int):
         self._tva = tva
 
     @property
@@ -32,6 +32,12 @@ class Product:
         return self._name
 
     @name.setter
+    def name(self, name: str):
+        self._name = name
+
+    def set_price(self, price: float | int):
+        self._price = price
+
     def set_name(self, name: str):
         self._name = name
 
@@ -43,3 +49,6 @@ print(f'Une {orange.name} coûte {orange.price}€.')
 
 products_sum = apple.price + orange.price
 print(f'Le coût total pour une {apple.name} et une {orange.name} est de {products_sum}€.')
+apple.set_price(2.05)
+apple.set_name('Pink Lady')
+print(f'Le nouveau prix de la {apple.name} est de {apple.price}€.')
