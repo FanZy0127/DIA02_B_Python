@@ -6,25 +6,25 @@ Ci dessous on a un exemple de getter/setter définit avec des décorateurs
 
 class Product:
 
-    def __init__(self, name: str, price: float, tva: float = .2):
+    def __init__(self, name: str, price: float | int, tva: float | int = .2):
         self._price = price
         self._tva = tva
         self._name = name
 
     @property
-    def price(self) -> float:
+    def price(self) -> float | int:
         return (self.tva + 1) * self._price
 
     @price.setter
-    def set_price(self, price: float):
+    def set_price(self, price: float | int):
         self._price = price
 
     @property
-    def tva(self) -> float:
+    def tva(self) -> float | int:
         return self._tva
 
     @tva.setter
-    def set_tva(self, tva: float):
+    def set_tva(self, tva: float | int):
         self._tva = tva
 
     @property
