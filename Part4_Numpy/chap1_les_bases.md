@@ -195,7 +195,7 @@ collections = np.empty(10)
 
 ## 6. Information sur un tableau
 
-Vous pouvez obtenur des informations sur un tableau Numpy :
+Vous pouvez obtenir des informations sur un tableau Numpy :
 
 ```python
 # Création d'un tableau 2 lignes 8 colonnes que de 1
