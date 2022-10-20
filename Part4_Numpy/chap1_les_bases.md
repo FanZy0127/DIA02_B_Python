@@ -496,7 +496,7 @@ Soit maintenant le tableau de dimension 5x5x5 suivant, répondez aux questions c
 
 4. Pour chaque "numéro" de matrice paire et chaque ligne paire multipliez par 2 les valeurs.
 
-5. Pour chaque matrice dont la somme des valeurs de la ligne est impaire, ajoutez 100 à toutes les valeurs de cette ligne.
+5. Pour chaque matrice  impaire, ajoutez 100 à toutes les valeurs de chaque ligne.
 
 6. Reprenez la matrice initiale y2 et ajoutez 1000 à la dernière valeur de chaque ligne de chaque matrice.
 
