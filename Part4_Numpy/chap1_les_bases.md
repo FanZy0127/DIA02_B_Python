@@ -489,7 +489,7 @@ y1 = np.array([[5, 5, 1, 6, 5],
        [3, 4, 7, 0, 8],
        [1, 8, 2, 0, 2]])
 
-yy1 = np.copy(y1, copy=True)
+yy1 = np.copy(y1)
 ```
 
 Soit maintenant le tableau de dimension 5x5x5 suivant, répondez aux questions ci-dessous :
