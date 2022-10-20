@@ -398,7 +398,7 @@ x1 = np.array([[9, 1, 2],
 
 3. Faites la somme des lignes puis des colonnes.
 
-4. Reprenez le tableax x1 et faite la somme de chaque colonne que vous placerez dans un tuple : (c1, c2, c3).
+4. Reprenez le tableaux **x1** et faite la somme de chaque colonne que vous placerez dans un tuple : (c1, c2, c3).
 
 5. Même consigne mais maintenant pour les lignes : (l1, l2, l3).
 
