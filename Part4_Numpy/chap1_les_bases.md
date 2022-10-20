@@ -419,7 +419,7 @@ x2 = np.array([
 
 8. Faites la somme selon l'axe axis = 2
 
-9. Créez un nouveau tableau x3 de dimension 1 X 2 qui fait la somme totale de chaque ligne.
+9. Créez un nouveau tableau **x3** de dimension 1 X 2 qui fait la somme totale de chaque ligne.
 
 10. On voudrait sélectionner maintenant les deuxièmes valeurs dans les tableaux 2x2 de chaque ligne.
 
