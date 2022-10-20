@@ -406,7 +406,7 @@ Soit maintenant un tableau 3d 2x2x2
 
 ```python
 
-x2 = array([ 
+x2 = np.array([ 
     [ [8, 4],[8, 9] ],
     [ [3, 0],[5, 0] ] 
 ])
