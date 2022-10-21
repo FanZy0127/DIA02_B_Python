@@ -720,7 +720,11 @@ b > a
 Vous pouvez également compter avec un mask :
 
 ```python
-np.sum( a > 2 )
+# retournera le nombre d'éléments dans le tableau étant supérieurs à 2, ici 5
+np.sum(a > 2)
+
+# le mask appliqué au tableau retournera la somme des éléments du tableau supérieurs à 2, ici 25
+np.sum(a[a > 2])
 ```
 
 En utilisant la méthode all de Numpy vous pouvez appliquer une comparaison totale sur les valeurs du tableau :
@@ -728,7 +732,7 @@ En utilisant la méthode all de Numpy vous pouvez appliquer une comparaison tota
 ```python
 # Retourne True si tous les éléments sont supérieur à 2
 # et False sinon.
-np.all(a > 0)
+np.all(a > 2)
 ```
 
 Si vous devez construire une proposition avec plusieurs assertions attention à la priorité des opérateurs. Le & est prioritaire par rapport à l'opérateur de comparaison :
